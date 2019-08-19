@@ -1,0 +1,5 @@
+[package]
+name = "the_one_list_maker_to_rule_them_all"
+version = "1.0.0"
+authors = ["Alexander Meinhardt Scheurer <alexandermscheurer@gmail.com>"]
+edition = "2018"
