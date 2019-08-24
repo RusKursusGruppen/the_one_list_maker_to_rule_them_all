@@ -61,11 +61,11 @@ fn table_footer<'a>() -> &'a [u8] {
 }
 
 fn help(file: &str) {
-    println!("Usage: {} [--gigs] [--beer] [--beer-stdin]\n\
-              Example: {} --gigs < data.csv\n\
-              Example: {} --gigs-stdin < gigs.csv\n\
-              Example: {} --beer",
-             file, file, file, file);
+    println!("Usage: {0} [--gigs] [--beer] [--beer-stdin]\n\
+              Example: {0} --gigs < data.csv\n\
+              Example: {0} --gigs-stdin < gigs.csv\n\
+              Example: {0} --beer",
+             file);
 }
 
 fn is_gigs(s: &[String]) -> bool {
